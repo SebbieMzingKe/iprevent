@@ -1,0 +1,21 @@
+# Exclude Python cache and unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude model-related unnecessary artifacts
+*.pkl
+*.log
+
+# Exclude environment variables
+.env
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Exclude editor and OS-generated files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
